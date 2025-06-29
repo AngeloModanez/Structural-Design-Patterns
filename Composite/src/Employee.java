@@ -27,7 +27,7 @@ public class Employee {
   public List<Employee> getSubordinates() {
     return subordinates;
   }
-
+  
   @Override
   public String toString() {
     return toString(0);
@@ -54,17 +54,5 @@ public class Employee {
     }
 
     return builder.toString();
-  }
-
-  public String getName() {
-    return name;
-  }
-
-  public String getDept() {
-    return dept;
-  }
-
-  public int getSalary() {
-    return salary;
   }
 }
